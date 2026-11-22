@@ -8,42 +8,42 @@
     },
     {
       "id": "02",
-      "title": "Case 1",
+      "title": "Case 1 - A Dangerous Encounter to A Temporary Agreement",
       "file": "02.md"
     },
     {
       "id": "03",
-      "title": "Case 2",
+      "title": "Case 2 - Image in the Monitor to Medicine Run",
       "file": "03.md"
     },
     {
       "id": "04",
-      "title": "Case 3",
+      "title": "Case 3 - The Professor's Past",
       "file": "04.md"
     },
     {
       "id": "05",
-      "title": "Case 4",
+      "title": "Case 4 - Another Source and Girl Hunting",
       "file": "05.md"
     },
     {
       "id": "06",
-      "title": "Case 5",
+      "title": "Case 5 - Promise to Isabela and Transporting",
       "file": "06.md"
     },
     {
       "id": "07",
-      "title": "Case 6",
+      "title": "Case 6 - Santa Cabeza",
       "file": "07.md"
     },
     {
       "id": "08",
-      "title": "Case 7",
+      "title": "Case 7 - The Last Resort and Bomb Collector",
       "file": "08.md"
     },
     {
       "id": "09",
-      "title": "Case 8",
+      "title": "Case 8 - Jamming Device to The Butcher",
       "file": "09.md"
     },
     {
@@ -63,13 +63,18 @@
     },
     {
       "id": "13",
-      "title": "Ending A and Overtime Mode",
+      "title": "The Facts, Ending A and Overtime",
       "file": "13.md"
     },
     {
       "id": "14",
       "title": "Infinity Mode and Platinum",
       "file": "14.md"
+    },
+    {
+      "id": "15",
+      "title": "Psychopaths at a glance",
+      "file": "15.md"
     }
   ]
 }

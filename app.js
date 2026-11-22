@@ -219,6 +219,9 @@ window.addEventListener('hashchange', () => { window.scrollTo(0, 0); route(); })
     if (seed) { const today = new Date().toISOString().slice(0, 10); seed.forEach((g, i) => db.games.push({ ...g, added: today, done: {}, updated: Date.now() - i, frontUrl: '', backUrl: '' })); save(); }
     localStorage.setItem('ps5g.seeded', '1');
   }
+  // patch seed covers onto existing seeded games that have none yet
+  const seed2 = await fetchCached('seed.json', true);
+  if (seed2) { let ch = false; seed2.forEach(sg => { const g = game(sg.id); if (g && sg.frontUrl && !g.frontUrl && !getImg(g.id, 'f')) { g.frontUrl = sg.frontUrl; ch = true; } }); if (ch) save(); }
   route();
 })();
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(() => {});

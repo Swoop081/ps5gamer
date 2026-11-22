@@ -1,5 +1,21 @@
 [
-  {"id":"seed-dead-rising","title":"Dead Rising Deluxe Remaster","status":"playing","guide":"dead-rising-deluxe-remaster"},
-  {"id":"seed-007","title":"007 First Light","status":"playing","guide":"007-first-light"},
-  {"id":"seed-wolverine","title":"Marvel's Wolverine","status":"playing","guide":"marvels-wolverine"}
+  {
+    "id": "seed-dead-rising",
+    "title": "Dead Rising Deluxe Remaster",
+    "status": "playing",
+    "guide": "dead-rising-deluxe-remaster",
+    "frontUrl": "covers/dead-rising-front.jpg"
+  },
+  {
+    "id": "seed-007",
+    "title": "007 First Light",
+    "status": "playing",
+    "guide": "007-first-light"
+  },
+  {
+    "id": "seed-wolverine",
+    "title": "Marvel's Wolverine",
+    "status": "playing",
+    "guide": "marvels-wolverine"
+  }
 ]
