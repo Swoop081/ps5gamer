@@ -1,3 +1,14 @@
 [
-  { "slug": "example-game", "title": "Example Game (template)" }
+  {
+    "slug": "dead-rising-deluxe-remaster",
+    "title": "Dead Rising Deluxe Remaster"
+  },
+  {
+    "slug": "007-first-light",
+    "title": "007 First Light"
+  },
+  {
+    "slug": "marvels-wolverine",
+    "title": "Marvel's Wolverine"
+  }
 ]

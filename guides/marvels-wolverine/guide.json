@@ -1,0 +1,155 @@
+{
+  "title": "Marvel's Wolverine",
+  "chapters": [
+    {
+      "id": "01",
+      "title": "1. Back in Action",
+      "file": "01.md"
+    },
+    {
+      "id": "02",
+      "title": "2. A Debt Repaid",
+      "file": "02.md"
+    },
+    {
+      "id": "03",
+      "title": "3. Last Meal",
+      "file": "03.md"
+    },
+    {
+      "id": "04",
+      "title": "4. Homecoming",
+      "file": "04.md"
+    },
+    {
+      "id": "05",
+      "title": "5. The One That Got Away",
+      "file": "05.md"
+    },
+    {
+      "id": "06",
+      "title": "6. Raise Some Hell",
+      "file": "06.md"
+    },
+    {
+      "id": "07",
+      "title": "7. Strays",
+      "file": "07.md"
+    },
+    {
+      "id": "08",
+      "title": "8. Something Much Stronger",
+      "file": "08.md"
+    },
+    {
+      "id": "09",
+      "title": "9. Knock Knock",
+      "file": "09.md"
+    },
+    {
+      "id": "10",
+      "title": "10. Mutant Detected",
+      "file": "10.md"
+    },
+    {
+      "id": "11",
+      "title": "11. For Our Future",
+      "file": "11.md"
+    },
+    {
+      "id": "12",
+      "title": "12. One Last Mission",
+      "file": "12.md"
+    },
+    {
+      "id": "13",
+      "title": "13. Jetlag",
+      "file": "13.md"
+    },
+    {
+      "id": "14",
+      "title": "14. Get Angry",
+      "file": "14.md"
+    },
+    {
+      "id": "15",
+      "title": "15. Bad Blood",
+      "file": "15.md"
+    },
+    {
+      "id": "16",
+      "title": "16. In the Shadows",
+      "file": "16.md"
+    },
+    {
+      "id": "17",
+      "title": "17. Death Comes to Death",
+      "file": "17.md"
+    },
+    {
+      "id": "18",
+      "title": "18. We Were Wrong",
+      "file": "18.md"
+    },
+    {
+      "id": "19",
+      "title": "19. Hell Followed With Him",
+      "file": "19.md"
+    },
+    {
+      "id": "20",
+      "title": "20. Death's Match",
+      "file": "20.md"
+    },
+    {
+      "id": "21",
+      "title": "21. Sinister Tidings",
+      "file": "21.md"
+    },
+    {
+      "id": "22",
+      "title": "22. Way Down Low",
+      "file": "22.md"
+    },
+    {
+      "id": "23",
+      "title": "23. Roll The Dice",
+      "file": "23.md"
+    },
+    {
+      "id": "24",
+      "title": "24. Field Test",
+      "file": "24.md"
+    },
+    {
+      "id": "25",
+      "title": "25. Red Right Hand",
+      "file": "25.md"
+    },
+    {
+      "id": "26",
+      "title": "26. Don't Go Gentle",
+      "file": "26.md"
+    },
+    {
+      "id": "27",
+      "title": "27. I'm Still Here",
+      "file": "27.md"
+    },
+    {
+      "id": "28",
+      "title": "28. This Was The Dream",
+      "file": "28.md"
+    },
+    {
+      "id": "29",
+      "title": "29. No Coming Back",
+      "file": "29.md"
+    },
+    {
+      "id": "30",
+      "title": "30. Brave New World",
+      "file": "30.md"
+    }
+  ]
+}

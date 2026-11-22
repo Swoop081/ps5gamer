@@ -165,12 +165,14 @@ async function viewForm(id) {
   <label>Status</label><select id="st">${Object.keys(STATUS).map(s => `<option value="${s}" ${g.status === s ? 'selected' : ''}>${STATUS[s]}</option>`).join('')}</select>
   <label>Guide from repo</label><select id="gd"><option value="">None</option>${idx.map(x => `<option value="${esc(x.slug)}" ${g.guide === x.slug ? 'selected' : ''}>${esc(x.title)}</option>`).join('')}</select>
   <div class="panel"><label style="margin-top:0">Front cover</label><span class="preview" id="pf" style="${pv('f')}"></span>
-    <input type="file" accept="image/*" id="ff"><input id="fu" placeholder="…or paste an image URL" value="${esc(g.frontUrl || '')}"></div>
+    <input type="file" accept="image/*" id="ff"><a class="stat" id="findf" href="#" target="_blank" rel="noopener">Find front cover images ↗</a><input id="fu" placeholder="…or paste an image URL" value="${esc(g.frontUrl || '')}"></div>
   <div class="panel"><label style="margin-top:0">Back cover</label><span class="preview" id="pb" style="${pv('b')}"></span>
-    <input type="file" accept="image/*" id="bf"><input id="bu" placeholder="…or paste an image URL" value="${esc(g.backUrl || '')}"></div>
-  <div class="stat">Tip: take photos of your case, or save the images from the PlayStation Store, then pick them here.</div>
+    <input type="file" accept="image/*" id="bf"><a class="stat" id="findb" href="#" target="_blank" rel="noopener">Find back cover images ↗</a><input id="bu" placeholder="…or paste an image URL" value="${esc(g.backUrl || '')}"></div>
+  <div class="stat">Tip: use the Find links, long-press an image, Save to Photos, then pick it here. Or paste an image URL.</div>
   <div class="row" style="margin-top:16px"><button class="btn" id="go">${id ? 'Save' : 'Add to library'}</button></div>`;
   const pick = (inp, side, prev) => $(inp).onchange = async e => { const f = e.target.files[0]; if (!f) return; try { pend[side] = await resizeImage(f); $(prev).style.backgroundImage = `url('${pend[side]}')`; } catch (x) { toast('Could not read image'); } };
+  const q = side => 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent($('#t').value.trim() + ' PS5 ' + side + ' cover');
+  $('#findf').onclick = e => { $('#findf').href = q('front'); }; $('#findb').onclick = e => { $('#findb').href = q('back'); };
   pick('#ff', 'f', '#pf'); pick('#bf', 'b', '#pb');
   $('#t').onchange = () => { const m = idx.find(x => x.title.toLowerCase() === $('#t').value.trim().toLowerCase()); if (m && !$('#gd').value) $('#gd').value = m.slug; };
   $('#go').onclick = () => {
@@ -211,5 +213,12 @@ async function route() {
   location.hash = '#/';
 }
 window.addEventListener('hashchange', () => { window.scrollTo(0, 0); route(); });
-route();
+(async () => {
+  if (!localStorage.getItem('ps5g.seeded') && db.games.length === 0) {
+    const seed = await fetchCached('seed.json', true);
+    if (seed) { const today = new Date().toISOString().slice(0, 10); seed.forEach((g, i) => db.games.push({ ...g, added: today, done: {}, updated: Date.now() - i, frontUrl: '', backUrl: '' })); save(); }
+    localStorage.setItem('ps5g.seeded', '1');
+  }
+  route();
+})();
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(() => {});

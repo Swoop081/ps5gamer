@@ -10,6 +10,6 @@ Enable GitHub Pages (Settings > Pages > Deploy from branch > `main` / root), ope
 2. Add one markdown file per chapter, plus `tips.md` for hints and cheat codes.
 3. Add `{ "slug": "<slug>", "title": "Game Title" }` to `guides/index.json`.
 
-See `guides/example-game` for a template. General tips live in `tips/general.md`.
+Copy any folder in `guides/` as a template. General tips live in `tips/general.md`.
 
 Your library, reviews and progress are stored on the phone. Use Backup in the app to export them.

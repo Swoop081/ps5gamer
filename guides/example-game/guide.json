@@ -1,8 +1,0 @@
-{
-  "title": "Example Game (template)",
-  "chapters": [
-    { "id": "01", "title": "Chapter 1 - The Beginning", "file": "01.md" },
-    { "id": "02", "title": "Chapter 2 - First Boss", "file": "02.md" },
-    { "id": "03", "title": "Chapter 3 - The Long Road", "file": "03.md" }
-  ]
-}

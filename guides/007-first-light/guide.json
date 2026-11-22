@@ -1,0 +1,90 @@
+{
+  "title": "007 First Light",
+  "chapters": [
+    {
+      "id": "01",
+      "title": "1. Against The Odds",
+      "file": "01.md"
+    },
+    {
+      "id": "02",
+      "title": "2. In His Majesty's Secret Service",
+      "file": "02.md"
+    },
+    {
+      "id": "03",
+      "title": "3. The Needle's Eye",
+      "file": "03.md"
+    },
+    {
+      "id": "04",
+      "title": "4. The Heart of the Matter",
+      "file": "04.md"
+    },
+    {
+      "id": "05",
+      "title": "5. A New Home",
+      "file": "05.md"
+    },
+    {
+      "id": "06",
+      "title": "6. A Night Out",
+      "file": "06.md"
+    },
+    {
+      "id": "07",
+      "title": "7. A Matter of Considerable Delicacy",
+      "file": "07.md"
+    },
+    {
+      "id": "08",
+      "title": "8. All the Time in the World",
+      "file": "08.md"
+    },
+    {
+      "id": "09",
+      "title": "9. Out of the Ashes",
+      "file": "09.md"
+    },
+    {
+      "id": "10",
+      "title": "10. The Past Never Dies",
+      "file": "10.md"
+    },
+    {
+      "id": "11",
+      "title": "11. Uninvited",
+      "file": "11.md"
+    },
+    {
+      "id": "12",
+      "title": "12. Knightfall",
+      "file": "12.md"
+    },
+    {
+      "id": "13",
+      "title": "13. Going Old School",
+      "file": "13.md"
+    },
+    {
+      "id": "14",
+      "title": "14. Time to Die",
+      "file": "14.md"
+    },
+    {
+      "id": "15",
+      "title": "15. Man of the Hour",
+      "file": "15.md"
+    },
+    {
+      "id": "16",
+      "title": "16. Wave of the Future",
+      "file": "16.md"
+    },
+    {
+      "id": "17",
+      "title": "17. For England",
+      "file": "17.md"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Dead Rising Deluxe Remaster",
+  "chapters": [
+    {
+      "id": "01",
+      "title": "Before you start",
+      "file": "01.md"
+    },
+    {
+      "id": "02",
+      "title": "Case 1",
+      "file": "02.md"
+    },
+    {
+      "id": "03",
+      "title": "Case 2",
+      "file": "03.md"
+    },
+    {
+      "id": "04",
+      "title": "Case 3",
+      "file": "04.md"
+    },
+    {
+      "id": "05",
+      "title": "Case 4",
+      "file": "05.md"
+    },
+    {
+      "id": "06",
+      "title": "Case 5",
+      "file": "06.md"
+    },
+    {
+      "id": "07",
+      "title": "Case 6",
+      "file": "07.md"
+    },
+    {
+      "id": "08",
+      "title": "Case 7",
+      "file": "08.md"
+    },
+    {
+      "id": "09",
+      "title": "Case 8",
+      "file": "09.md"
+    },
+    {
+      "id": "10",
+      "title": "Day 1 Scoops (6)",
+      "file": "10.md"
+    },
+    {
+      "id": "11",
+      "title": "Day 2 Scoops (9)",
+      "file": "11.md"
+    },
+    {
+      "id": "12",
+      "title": "Day 3 Scoops (10)",
+      "file": "12.md"
+    },
+    {
+      "id": "13",
+      "title": "Ending A and Overtime Mode",
+      "file": "13.md"
+    },
+    {
+      "id": "14",
+      "title": "Infinity Mode and Platinum",
+      "file": "14.md"
+    }
+  ]
+}
